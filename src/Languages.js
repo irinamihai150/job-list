@@ -10,7 +10,7 @@ export default function Languages() {
         </p>
       ))} */}
 
-      {jobListing.map(({ item, role }) => (
+      {/* {jobListing.map(({ item, role }) => (
         <p className="role" style={{ backgroundColor: "yellow" }}>
           {role}
         </p>
@@ -24,7 +24,7 @@ export default function Languages() {
         <ul>
           <li key={employee.languages}>{employee.languages}</li>
         </ul>
-      ))}
+      ))} */}
       {/* <ul>
         {jobListing.map(({ item, languages }) => (
           <li style={{ backgroundColor: "pink" }}>{languages}</li>
