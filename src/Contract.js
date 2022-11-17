@@ -1,5 +1,5 @@
-import React from 'react'
-import jobListing from './List';
+import React from "react";
+import jobListing from "./List";
 
 export default function Contract() {
   return (
