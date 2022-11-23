@@ -1,57 +1,40 @@
 body {
   background-color: #EffAFB;
 }
-.container {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  border: 3px solid red;
-  margin: 3em;
+.card-container {
+  margin: 4em;
+} 
+.company-details{
+  margin-top: 2em;
+}
+.company-details p {
+  padding-left: 1em;
+  display: inline;
+  padding-top: 0.5em;
 }
 
-.location-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-
-}
-.title-container {
- width:40%;
- border:3px solid rgb(240, 102, 87);
-}
 .roles-container {
   display: flex;
-  flex-direction: row;
-  padding: 1em;
-  justify-content: space-around;
-border:3px solid yellow;
-  width: 50%;
+  color: #7EACAD;
+}
+.roles-container p {
+  padding-left: 1em;
 }
 
-.main-part {
-  border:3px solid rgb(0, 19, 128);
+ul li {
+  color:#7EACAD;
+}
+.company-name {
+  color:#7EACAD;
+}
+.article {
   width: 60%;
-
 }
 
-.company-container {
-  background-color: aqua;
+.card {
+  background-color: white;
+  margin: 2em;
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  margin-right:1em;
-
-}
-
-.languages-container {
-  background-color: crimson;
-
-}
-
-.test {
-  border: 4px solid greenyellow;
-  margin: 1em;
-  display:flex;
   flex-direction: row;
 }
 
@@ -59,18 +42,17 @@ ul li {
   display: inline;
   padding-left: 1em;
 }
+
 #contain-loc {
   display: flex;
-  border:3px solid black;
-  padding:4px;
+  padding: 4px;
 }
-.article2{
-  display: flex;
-  border:3px solid violet;
-  flex-direction: column;
+#contain-loc p {
+  padding-left:1em;
 }
- header img {
-  width:110px;
-  height:110px;
-  
+.article2 {
+  background-color: grey;
+}
+h3 {
+  margin-left: 1em;
 }
