@@ -1,13 +1,39 @@
 import React from "react";
 import jobListing from "./List";
+// import images from "./images"
 
 export default function Card() {
+  // let titles = [
+  //   "account",
+  //   "eyecam",
+  //   "faceit",
+  //   "insure",
+  //   "loop",
+  //   "manage",
+  //   "photosnap",
+  //   "shortly",
+  //   "the-air-filter-company",
+  // ];
+  // let images = titles.map((title) => {
+  //   <img
+  //     src={require("./images/{title}.svg")}
+  //     alt=""
+  //     className="img-responsive"
+  //   />;
+  // });
   return (
     <div className="card-container">
       {jobListing.map((job) => {
         return (
           <div className="card">
             <div className="article">
+              {/* <img alt ="">{images}</img> */}
+
+              {/* <img
+                src={require("./images/account.svg")}
+                alt=""
+                className="img-responsive"
+              /> */}
               {/* <img  src = "./img" alt ="logo"/> */}
               <div className="job-list-details">
                 <div className="company-details">
