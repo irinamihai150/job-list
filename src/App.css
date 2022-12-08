@@ -56,3 +56,8 @@ ul li {
 h3 {
   margin-left: 1em;
 }
+.img {
+  width: 50rem;
+  height:50rem;
+  border:1px solid black;
+}
