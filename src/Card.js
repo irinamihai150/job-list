@@ -1,17 +1,14 @@
 import React from "react";
 import jobListing from "./List";
 
-
 export default function Card() {
-  
   return (
     <div className="card-container">
       {jobListing.map((job) => {
         return (
           <div className="card">
+            <img alt="logo" className="img" src={job.logo} />
             <div className="article">
-              <img alt = "logo"  className = "img" src = {job.logo}/>
-
               <div className="job-list-details">
                 <div className="company-details">
                   <p className="company-name" key={job.id}>
@@ -46,19 +43,16 @@ export default function Card() {
               </div>
             </div>
             <div className="roles-container">
-              <p key={job.id} className="role-container">
+              <span key={job.id} className="role-container">
                 {job.role}
-              </p>
-              <p key={job.id} className="level-container">
+              </span>
+              <span key={job.id} className="level-container">
                 {job.level}
-              </p>
-              <p key={job.id} className="languages-container">
-                <ul>
-                  {job.languages.map((language) => (
-                    <li>{language}</li>
-                  ))}
-                </ul>
-              </p>
+              </span>
+              {/* <span key={job.id} className="languages-container"> */}
+              {job.languages.map((language) => (
+                <span className="languages-container">{language}</span>
+              ))}
             </div>
           </div>
         );

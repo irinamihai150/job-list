@@ -1,12 +1,15 @@
 body {
   background-color: #EffAFB;
 }
+
 .card-container {
   margin: 4em;
-} 
-.company-details{
+}
+
+.company-details {
   margin-top: 2em;
 }
+
 .company-details p {
   padding-left: 1em;
   display: inline;
@@ -16,17 +19,37 @@ body {
 .roles-container {
   display: flex;
   color: #7EACAD;
+
 }
+
+.role-container {
+  padding-right: 1em;
+  margin-top: 4em;
+}
+
+.level-container {
+  margin-top: 4em;
+}
+
+.languages-container {
+  padding-right: 0.5em;
+  margin-top: 4em;
+
+}
+
 .roles-container p {
   padding-left: 1em;
+  margin-top: 3em;
 }
 
 ul li {
-  color:#7EACAD;
+  color: #7EACAD;
 }
+
 .company-name {
-  color:#7EACAD;
+  color: #7EACAD;
 }
+
 .article {
   width: 60%;
 }
@@ -47,17 +70,21 @@ ul li {
   display: flex;
   padding: 4px;
 }
+
 #contain-loc p {
-  padding-left:1em;
+  padding-left: 1em;
 }
+
 .article2 {
   background-color: grey;
 }
+
 h3 {
   margin-left: 1em;
 }
+
 .img {
-  width: 50rem;
-  height:50rem;
-  border:1px solid black;
+  width: 5rem;
+  height: 5rem;
+  margin: 2em;
 }

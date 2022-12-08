@@ -1,5 +1,5 @@
 import React from "react";
-import header from "./images/header.svg";
+import header from "./header.svg";
 
 export default function Header() {
   return (
